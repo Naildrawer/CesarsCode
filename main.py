@@ -40,7 +40,7 @@ def coding(lang, step, words, direction):
       rot = 26
       low_alphabet = lower_eng_alphabet
       upp_alphabet = upper_eng_alphabet
-    if words[i].isalpha:
+    if words[i].isalpha():
       if words[i] == words[i].lower():
         place = low_alphabet.index(words[i])
       if words[i] == words[i].upper():
